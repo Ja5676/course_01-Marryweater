@@ -26,7 +26,7 @@ namespace Bot
                     chatId: message.Chat.Id,
                     text: "Запустити WebApp:",
                     replyMarkup: new InlineKeyboardMarkup(
-                        InlineKeyboardButton.WithWebApp("Відкрити", new WebAppInfo("https://your-site.com"))
+                        InlineKeyboardButton.WithWebApp("Відкрити", new WebAppInfo("https://ja5676.github.io/course_01-Marryweater/"))
                     )
                 );
             }
