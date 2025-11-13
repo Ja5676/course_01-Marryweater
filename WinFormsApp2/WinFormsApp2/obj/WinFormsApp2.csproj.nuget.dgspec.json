@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {}
+    "C:\\Users\\sereb\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {}
   },
   "projects": {
-    "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {
+    "C:\\Users\\sereb\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+        "projectUniqueName": "C:\\Users\\sereb\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
         "projectName": "WinFormsApp2",
-        "projectPath": "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
-        "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
-        "outputPath": "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\obj\\",
+        "projectPath": "C:\\Users\\sereb\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+        "packagesPath": "C:\\Users\\sereb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sereb\\source\\repos\\WinFormsApp2\\WinFormsApp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dimas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sereb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,16 +49,6 @@
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.1.66, )"
-            },
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[6.1.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -78,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
