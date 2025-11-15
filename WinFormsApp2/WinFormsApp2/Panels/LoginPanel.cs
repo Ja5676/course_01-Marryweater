@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp2.Models;
 using WinFormsApp2.Services;
 
 namespace WinFormsApp2.Panels
@@ -41,6 +42,12 @@ namespace WinFormsApp2.Panels
             if (Convert.ToBase64String(hash) == user.PasswordHash)
             {
                 MessageBox.Show("Successful login", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Controls.Clear();
+                var profile = new UserProfilePanel(user)
+                {
+                    Dock = DockStyle.Fill
+                };
+                Controls.Add(profile);
             }
             else
             {

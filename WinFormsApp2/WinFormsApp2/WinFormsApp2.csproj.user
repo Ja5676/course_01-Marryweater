@@ -13,5 +13,17 @@
     <Compile Update="Panels\LoginPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Panels\UserProfile\AdCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\UserProfile\AdCardCreate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\UserProfile\UserAds.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\UserProfile\UserProfilePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
