@@ -80,3 +80,7 @@ D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\o
 D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.LoginPanel.resources
 D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.RegisterPanel.resources
 D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.AuthorizationPanel.resources
+D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.UserProfile.AdCard.resources
+D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.UserProfile.UserAds.resources
+D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.UserProfilePanel.resources
+D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.UserProfile.AdCardCreate.resources

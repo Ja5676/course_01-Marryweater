@@ -1,6 +1,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using WinFormsApp2.Models;
 using WinFormsApp2.Panels;
 
 namespace WinFormsApp2
