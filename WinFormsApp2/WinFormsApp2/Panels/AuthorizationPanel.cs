@@ -19,7 +19,6 @@ namespace WinFormsApp2.Panels
 
         private void OpenSingIn(object sender, EventArgs e)
         {
-            // Переход: заменяем содержимое формы на UserControl1
             Controls.Clear();
             var uc = new LoginPanel
             {

@@ -7,10 +7,31 @@
     <Compile Update="Panels\AuthorizationPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Panels\CabinetPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\CatalogPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\HomePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\LotDetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\LotEditorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\MainPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Panels\RegisterPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Panels\LoginPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Panels\SupportPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

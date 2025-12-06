@@ -1,4 +1,4 @@
-п»їusing System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,38 +24,41 @@ namespace WinFormsApp2.Panels
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                MessageBox.Show("Enter username and password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Введіть логін та пароль", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            var users = DbManager.GetUsers().ToList();
-            var user = users.Find(u => u.Username.Equals(username));
-            if (user == null)
+            var user = DbManager.LoginUser(username, password);
+            if (user != null)
             {
-                MessageBox.Show("Incorrect password or username", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            var salt = Convert.FromBase64String(user.Salt);
-            var hash = PasswordHasher.HashPassword(password, salt);
-            if (Convert.ToBase64String(hash) == user.PasswordHash)
-            {
-                MessageBox.Show("Successful login", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                SessionManager.Login(user);
+                
+                MessageBox.Show("Вхід Успішний!", "Успіх", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                var form = FindForm();
+                if (form != null)
+                {
+                    form.Size = new Size(1200, 800);
+                    form.StartPosition = FormStartPosition.CenterScreen;
+                    form.Text = "LotFlow";
+                    form.Controls.Clear();
+                    form.Controls.Add(new MainPanel { Dock = DockStyle.Fill });
+                }
             }
             else
             {
-                MessageBox.Show("Incorrect password or username", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Неправильний логін або пароль", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void Back(object sender, EventArgs e)
         {
-            Controls.Clear();
-            var uc = new AuthorizationPanel
+            var form = FindForm();
+            if (form != null)
             {
-                Dock = DockStyle.Fill
-            };
-            Controls.Add(uc);
+                form.Controls.Clear();
+                form.Controls.Add(new AuthorizationPanel { Dock = DockStyle.Fill });
+            }
         }
     }
 }

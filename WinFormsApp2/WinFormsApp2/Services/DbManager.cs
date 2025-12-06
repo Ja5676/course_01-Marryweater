@@ -1,62 +1,71 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 using WinFormsApp2.Models;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace WinFormsApp2.Services
 {
     public static class DbManager
     {
         private readonly static string connectionString = "Server=DESKTOP-024LTB5\\MSSQLSERVER01;Database=LotFlowDB;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True;";
-        public static IEnumerable<User> GetUsers()
+
+        public static bool AddUser(string username, string email, string password)
         {
-            try
+            using (var db = new SqlConnection(connectionString))
             {
-                using (var db = new SqlConnection(connectionString))
+                var exists = db.ExecuteScalar<int>(
+                    "SELECT COUNT(*) FROM Users WHERE Email = @Email OR Username = @Username",
+                    new { Email = email, Username = username });
+
+                if (exists > 0)
                 {
-                    var users = db.Query<User>("SELECT * FROM Users");
-                    return users;
+                    MessageBox.Show("Користувач з таким логіном чи почтою вже існує!", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return false;
                 }
-            }
-            catch
-            {
-                return new List<User>();
+
+                byte[] saltBytes = PasswordHasher.CreateSalt();
+                byte[] hashBytes = PasswordHasher.HashPassword(password, saltBytes);
+
+                string saltStr = Convert.ToBase64String(saltBytes);
+                string hashStr = Convert.ToBase64String(hashBytes);
+
+                var sql = @"INSERT INTO Users (Username, Email, DateRegistered, Salt, PasswordHash)
+                            VALUES (@Username, @Email, @DateRegistered, @Salt, @PasswordHash)";
+
+                db.Execute(sql, new
+                {
+                    Username = username,
+                    Email = email,
+                    DateRegistered = DateTime.Now,
+                    Salt = saltStr,
+                    PasswordHash = hashStr
+                });
+
+                MessageBox.Show("Реєстрація Успішна!", "Успіх", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return true;
             }
         }
 
-        public static void AddUser(User user)
+        public static User LoginUser(string username, string password)
         {
-            try
+            using (var db = new SqlConnection(connectionString))
             {
-                using (var db = new SqlConnection(connectionString))
+                var user = db.QueryFirstOrDefault<User>("SELECT * FROM Users WHERE Username = @Username", new { Username = username });
+
+                if (user == null) return null;
+
+                byte[] saltBytes = Convert.FromBase64String(user.Salt);
+                byte[] storedHashBytes = Convert.FromBase64String(user.PasswordHash);
+                byte[] inputHashBytes = PasswordHasher.HashPassword(password, saltBytes);
+
+                if (inputHashBytes.SequenceEqual(storedHashBytes))
                 {
-                    var users = GetUsers().ToList();
-
-                    if (users.Exists(u => u.Username.Equals(user.Username) || u.Email.Equals(user.Email)))
-                    {
-                        MessageBox.Show("A user with this username or email address already exists", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return;
-                    }
-
-                    db.Execute(@"INSERT INTO Users (Username, Email, DateRegistered, Salt, PasswordHash)
-                             VALUES (@Username, @Email, @DateRegistered, @Salt, @PasswordHash)", new User(user.Username, user.Email, user.Salt, user.PasswordHash));
-
-                    MessageBox.Show("You have successfully registered", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
+                    return user;
                 }
             }
-            catch
-            {
-                MessageBox.Show("Failed to register", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
+            return null;
         }
     }
 }

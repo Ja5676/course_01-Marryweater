@@ -43,7 +43,6 @@ namespace WinFormsApp2
             txtUsername.Size = new Size(200, 27);
             txtUsername.TabIndex = 6;
             txtUsername.TextAlign = HorizontalAlignment.Center;
-            txtUsername.TextChanged += txtUsername_TextChanged;
             // 
             // txtPassword
             // 
@@ -118,7 +117,6 @@ namespace WinFormsApp2
             Controls.Add(txtUsername);
             Name = "RegisterPanel";
             Size = new Size(600, 400);
-            Load += UserControl1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

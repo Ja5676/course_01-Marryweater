@@ -13,7 +13,7 @@ namespace WinFormsApp2
 
             StartPosition = FormStartPosition.CenterScreen;
             Size = new Size(600, 400);
-            Text = "Form1";
+            Text = "LotFlow";
 
             Controls.Clear();
             var uc = new AuthorizationPanel

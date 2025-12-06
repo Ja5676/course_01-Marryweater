@@ -80,3 +80,134 @@ D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\o
 D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.LoginPanel.resources
 D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.RegisterPanel.resources
 D:\Курсова робота\course_01-Marryweater\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.AuthorizationPanel.resources
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.csproj.AssemblyReference.cache
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Form1.resources
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.AuthorizationPanel.resources
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.LoginPanel.resources
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.RegisterPanel.resources
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Properties.Resources.resources
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.AssemblyInfo.cs
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.sourcelink.json
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\refint\WinFormsApp2.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.pdb
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.exe
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.deps.json
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.runtimeconfig.json
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.pdb
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Azure.Core.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Azure.Identity.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Dapper.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\System.ClientModel.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\System.Memory.Data.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinForms.CF340A35.Up2Date
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.genruntimeconfig.cache
+C:\project\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\ref\WinFormsApp2.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.exe
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.deps.json
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.runtimeconfig.json
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\WinFormsApp2.pdb
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Azure.Core.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Azure.Identity.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Dapper.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\System.ClientModel.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\System.Memory.Data.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.csproj.AssemblyReference.cache
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Form1.resources
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.AuthorizationPanel.resources
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.LoginPanel.resources
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.RegisterPanel.resources
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Properties.Resources.resources
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.AssemblyInfo.cs
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.sourcelink.json
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinForms.CF340A35.Up2Date
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\refint\WinFormsApp2.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.pdb
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.genruntimeconfig.cache
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\ref\WinFormsApp2.dll
+D:\Курсова робота\lot\WinFormsApp2\WinFormsApp2\obj\Debug\net9.0-windows\WinFormsApp2.Panels.SupportPanel.resources

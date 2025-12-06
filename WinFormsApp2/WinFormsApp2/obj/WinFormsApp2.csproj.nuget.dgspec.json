@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {}
+    "D:\\Курсова робота\\LotFlow\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {}
   },
   "projects": {
-    "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {
+    "D:\\Курсова робота\\LotFlow\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+        "projectUniqueName": "D:\\Курсова робота\\LotFlow\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
         "projectName": "WinFormsApp2",
-        "projectPath": "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+        "projectPath": "D:\\Курсова робота\\LotFlow\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
         "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
-        "outputPath": "D:\\Курсова робота\\course_01-Marryweater\\WinFormsApp2\\WinFormsApp2\\obj\\",
+        "outputPath": "D:\\Курсова робота\\LotFlow\\WinFormsApp2\\WinFormsApp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
